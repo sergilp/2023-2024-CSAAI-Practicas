@@ -1,0 +1,51 @@
+/* Documento de estilo referido al
+  currículum de Bjorn. */
+
+  
+  /* Estilo del body, solo usado para background-image */
+  body {
+    background-image: url("paisajegelido.jpg");
+    background-repeat: no-repeat; /* Para que la imagen no se repita */
+    background-size: cover; /* Para que la imagen ocupe toda la página */
+}
+
+body{
+    width: 90%;
+    margin: auto;
+}
+  .title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    border: solid 0.5px rgb(0, 0, 255);
+  }
+
+  .left{
+    width: 30%;
+    margin-left: 3%
+  }
+
+  .Bjorn{
+    height: 285px;
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px 5px;
+    margin-left: 3.5%;
+    margin-top: 2%;
+  }
+
+  .sobre_mi_cont{
+    border: solid 1px;
+    margin-top: 20px;
+    color: blue;
+
+
+  }
+  
+  .sobre_mi{
+    border-bottom: solid 1px ;
+    margin-left: 10px;
+  }
+
+  .sobre_mi_cont p{
+    padding: 10px;
+  }
