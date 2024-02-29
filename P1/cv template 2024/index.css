@@ -1,0 +1,348 @@
+/* https://www.w3schools.com/howto/howto_css_two_columns.asp */
+/* https://developer.mozilla.org/es/docs/Web/CSS/box-sizing */
+
+/* Documento de estilo referido al
+  currículum de Bjorn. */
+
+  
+  /* Estilo del body, solo usado para background-image */
+  body{
+    background-image: url("paisajegelido.jpg");
+    background-repeat: no-repeat; /* Para que la imagen no se repita */
+    background-size: cover; /* Para que la imagen ocupe toda la página */
+
+}
+
+body{
+    width: 90%;
+    margin: auto;
+
+}
+h1{
+  text-align: center;
+}
+  .title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+  }
+.main{
+  background-color: rgba(255, 255, 255, 0.4); /* Aquí el último valor (0.5) representa la opacidad */
+}
+
+
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.izquierda{
+  width: 500px;
+  
+  
+}
+
+.derecha{
+  width: 1210px;
+  
+}
+
+
+.Bjorn{
+    height: 285px;
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px 5px;
+    margin-top: 2%;
+    margin-left: 21%;
+}
+
+.sobre_mi_cont{
+    width: 93%;
+    margin-left: 3%;
+    margin-top: 20px;
+    padding: 10px;
+}
+  
+.sobre_mi{
+  border-bottom: solid 1px;
+  margin-left: 6%;
+  margin-right: 10%;
+}
+
+.contacto{
+  border-bottom: solid 1px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.email {
+  display: flex; /* Establece un contenedor de flexbox para los elementos internos */
+  align-items: center; /* Alinea verticalmente los elementos hijos */
+}
+
+.email img {
+  margin-right: 5px; /* Agrega un margen a la derecha de la imagen para separarla del texto */
+}
+
+.linkedin {
+  display: flex; /* Establece un contenedor de flexbox para los elementos internos */
+  align-items: center; /* Alinea verticalmente los elementos hijos */
+  margin-bottom: 20px;
+}
+
+.linkedin img {
+  margin-right: 5px; /* Agrega un margen a la derecha de la imagen para separarla del texto */
+}
+
+.telefono {
+  display: flex; /* Establece un contenedor de flexbox para los elementos internos */
+  align-items: center; /* Alinea verticalmente los elementos hijos */
+}
+
+.telefono img {
+  margin-right: 5px; /* Agrega un margen a la derecha de la imagen para separarla del texto */
+}
+
+
+
+.logros{
+  border-bottom: solid 1px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.experiencia_laboral{
+  border-bottom: solid 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.educacion{
+  border-bottom: solid 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.habilidades{
+  border-bottom: solid 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.idiomas{
+  border-bottom: solid 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.intereses{
+  border-bottom: solid 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Estilo para cambiar los marcadores de lista por una imagen */
+ul {
+  list-style-type: none; /* Esto elimina los puntos de la lista */
+}
+
+ul li {
+  padding-left: 30px; /* Ajusta el espacio a la izquierda para la imagen */
+  background: url('copo.png') no-repeat left center; /* Ruta de la imagen y posición */
+  background-size: 25px 25px; /* Ajusta el tamaño de la imagen */
+  margin-bottom: 5px; /* Ajusta el espacio entre elementos de lista */
+  line-height: 25px; /* Ajusta la altura de línea para centrar la imagen verticalmente */
+}
+
+@font-face {
+  font-family: 'icecold'; 
+  src: url('Icecold.ttf');
+    
+}
+
+.title{
+  font-family: 'icecold';
+}
+
+.sobre_mi, .contacto, .logros, .experiencia_laboral, .educacion, .idiomas, .habilidades, .intereses{
+  font-family: 'icecold';
+}
+
+ul li, p, a, strong{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 768px){
+
+  body{
+    background-image: url("paisajegelido.jpg");
+    background-repeat: no-repeat; /* Para que la imagen no se repita */
+    background-size: cover; /* Para que la imagen ocupe toda la página */
+
+}
+
+body{
+    width: 90%;
+    margin: auto;
+
+}
+h1{
+  text-align: center;
+}
+  .title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+  }
+.main{
+  background-color: rgba(255, 255, 255, 0.4); /* Aquí el último valor (0.5) representa la opacidad */
+}
+
+
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.izquierda{
+  width: 500px;
+  
+  
+}
+
+.derecha{
+  width: 1210px;
+  
+}
+
+
+.Bjorn{
+    height: 285px;
+    border-radius: 80px;
+    box-shadow: 5px 5px 5px 5px;
+    margin-top: 2%;
+    margin-left: 21%;
+}
+
+.sobre_mi_cont{
+    width: 93%;
+    margin-left: 3%;
+    margin-top: 20px;
+    padding: 10px;
+}
+  
+.sobre_mi{
+  border-bottom: solid 1px;
+  margin-left: 6%;
+  margin-right: 10%;
+}
+
+.contacto{
+  border-bottom: solid 1px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.email {
+  display: flex; /* Establece un contenedor de flexbox para los elementos internos */
+  align-items: center; /* Alinea verticalmente los elementos hijos */
+}
+
+.email img {
+  margin-right: 5px; /* Agrega un margen a la derecha de la imagen para separarla del texto */
+}
+
+.linkedin {
+  display: flex; /* Establece un contenedor de flexbox para los elementos internos */
+  align-items: center; /* Alinea verticalmente los elementos hijos */
+  margin-bottom: 20px;
+}
+
+.linkedin img {
+  margin-right: 5px; /* Agrega un margen a la derecha de la imagen para separarla del texto */
+}
+
+.telefono {
+  display: flex; /* Establece un contenedor de flexbox para los elementos internos */
+  align-items: center; /* Alinea verticalmente los elementos hijos */
+}
+
+.telefono img {
+  margin-right: 5px; /* Agrega un margen a la derecha de la imagen para separarla del texto */
+}
+
+
+
+.logros{
+  border-bottom: solid 1px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.experiencia_laboral{
+  border-bottom: solid 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.educacion{
+  border-bottom: solid 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.habilidades{
+  border-bottom: solid 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.idiomas{
+  border-bottom: solid 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.intereses{
+  border-bottom: solid 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Estilo para cambiar los marcadores de lista por una imagen */
+ul {
+  list-style-type: none; /* Esto elimina los puntos de la lista */
+}
+
+ul li {
+  padding-left: 30px; /* Ajusta el espacio a la izquierda para la imagen */
+  background: url('copo.png') no-repeat left center; /* Ruta de la imagen y posición */
+  background-size: 25px 25px; /* Ajusta el tamaño de la imagen */
+  margin-bottom: 5px; /* Ajusta el espacio entre elementos de lista */
+  line-height: 25px; /* Ajusta la altura de línea para centrar la imagen verticalmente */
+}
+
+@font-face {
+  font-family: 'icecold'; 
+  src: url('Icecold.ttf');
+    
+}
+
+.title{
+  font-family: 'icecold';
+}
+
+.sobre_mi, .contacto, .logros, .experiencia_laboral, .educacion, .idiomas, .habilidades, .intereses{
+  font-family: 'icecold';
+}
+
+ul li, p, a, strong{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.separacion{
+  display: none;
+}
+}

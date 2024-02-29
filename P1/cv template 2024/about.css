@@ -1,0 +1,82 @@
+
+body{
+    background-image: url("paisajegelido.jpg");
+    background-repeat: no-repeat; /* Para que la imagen no se repita */
+    background-size: cover; /* Para que la imagen ocupe toda la página */
+}
+
+body {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagenes {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+
+.imagenes {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.imagenes .imagen1,
+.imagenes .imagen2 {
+    width: 50%; 
+    margin: 0 10px; 
+}
+.imagenes .imagen1,
+.imagenes .imagen2 {
+    width: 45%; 
+}
+
+.imagenes img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+    margin-bottom: 10px; /
+}
+
+
+.imagen2 img {
+    width: 320px;
+    height: auto; 
+}
+
+.inicio{
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+ul li, p, a, strong{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
