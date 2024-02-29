@@ -80,3 +80,13 @@ ul li, p, a, strong{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@font-face {
+    font-family: 'icecold'; 
+    src: url('Icecold.ttf');
+      
+  }
+
+.container, section{
+    font-family: 'icecold';
+}
+
