@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiro Parabólico</title>
+
+    <!-- Hoja de estilo -->
+    <link rel="stylesheet" href="tp.css">
+
+    <!-- Código javascript -->
+    <script src="tp.js" defer></script>
+    <script src="crono.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Angry birds</h1>
+        <canvas id="ctiro"></canvas>
+        <img src="cerdo.png" alt="No encontrada" id="cerdo">
+        <img src="cerdo_ko.png" alt="No encontrada" id="cerdo_ko">
+        <img src="pajaro_amarillo.png" alt="No encontrada" id="pajaro_amarillo">
+
+        <div>
+            <p id="cronometro">Tiempo: 0:0:0</p>
+
+            <p>
+                <b>Velocidad del disparo:</b> <br>
+                <input type="range" id="vel_range" min="0" max="100" > <span id="vel_range_disp"></span>
+            </p>
+            <p>  
+                <b>Ángulo del disparo:</b> <br>
+                <input type="range" id="ang_range" min="0" max="90"> <span id="ang_range_disp"></span> 
+            </p>
+
+            <input type="button" id="btnLanzar" value="Probar suerte">
+            <input type="button" id="btnIniciar" value="Jugar de nuevo">
+        </div>
+    </div>
+    
+</body>
+</html>
+

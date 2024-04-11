@@ -1,0 +1,66 @@
+/* Estilos para el campo de tiro */
+body {
+  background-image: url('cielo_an.avif'); /* Ruta de la imagen */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.container {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(228, 228, 228, 0.8);
+}
+
+h1{
+  font-family: cursive;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  font-size: 45px;
+  text-align: center;
+}
+p{
+  font-family: cursive;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  text-align: center;
+}
+#ctiro {
+  background-color: rgb(228, 228, 228);
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 5px;
+  background-image: url("cielo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Imagen deshabilitada
+Se usa para leerla desde js y
+meterla en el canvas */
+#pajaro_amarillo {
+  display: none;
+}
+
+#cerdo {
+  display: none;
+}
+
+#cerdo_ko {
+  display: none;
+}
+
+#btnLanzar,
+#btnIniciar {
+  position: relative;
+  z-index: 99999; /* Ajusta este valor según sea necesario para que estén por encima del confeti */
+}
+
+
