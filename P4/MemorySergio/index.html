@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Memory </title>
+
+        <link rel="stylesheet" href="memory.css" />
+        <script src="memory-game.js" defer></script>
+    </head>
+<body class = "fondo">
+        <div class="game">
+            <div class="controles">
+                <div class="botones_control">
+                    <button class="comenzar">Comenzar</button>
+                    <button class="reiniciar">Reiniciar</button>
+                </div>
+                <div class="botones_dimensiones">
+                    <button class="dimensiones" id="2x2">2x2</button>
+                    <button class="dimensiones" id="4x4">4x4</button>
+                    <button class="dimensiones" id="6x6">6x6</button>
+                </div>
+                <div class="display">
+                    <div class="movimientos">0 movimientos</div>
+                    <div class="timer">tiempo: 0 sec</div>
+                </div>
+            </div>
+            <div class="grid-container oculto" >
+                <div class="tablero">
+                    <div class="card">
+                        <div class="card-front"></div>
+                        <div class="card-back">🍍</div>
+                    </div>
+                </div>
+                <div class="win">¡Has Ganado!</div>
+            </div>
+        </div>
+</body>
+</html>
